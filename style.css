@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    padding-top:800px;
+    
+    
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+    
+        
+}
+h2{
+    
+
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+}
+p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+    margin: 25px auto;
+    max-width: 450px;
+    
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+#about{
+    padding: 50px;
+    
+    
+    
+}
+#welcome{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.83;
+    color: darkmagenta;
+    background: linear-gradient(#15a9d6 0%,#15d6b3 100%);
+    width: 100%;
+    height: 100%;
+    display: table;
+    z-index: 9;
+    
+    
+    
+}
+.menu{
+    z-index: 10;
+    top: 10px;
+    right: 30px;
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    position: absolute;
+    
+    
+}
+.links{
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    float: left;
+    
+
+}
+.links:hover{
+    background-color: deeppink;
+}
+img{
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    
+}
+.div1{
+    position:relative;
+    display: table-cell;
+}
