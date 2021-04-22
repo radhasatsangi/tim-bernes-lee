@@ -80,6 +80,7 @@ p{
 }
 .links:hover{
     background-color: deeppink;
+    
 }
 img{
     width: 175px;
@@ -90,4 +91,16 @@ img{
 .div1{
     position:relative;
     display: table-cell;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.artical:hover{
+    color: fuchsia;
+    
 }
