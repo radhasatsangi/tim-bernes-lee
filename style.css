@@ -98,9 +98,32 @@ html{
 }
 a{
     text-decoration: none;
+    color: chartreuse;
+    text-shadow: 2px 2px gainsboro;
     
 }
 .artical:hover{
     color: fuchsia;
+    
+}
+#writing a{
+    text-shadow:none !important;
+    text-decoration: underline !important;
+    color: dodgerblue !important;
+    
+}
+#contact{
+    background-color: forestgreen;
+    
+}#contact iframe{
+    width: 100%;
+
+}
+.contact1 h3{
+    display: inline;
+    
+}
+.contact1 a{
+    color: currentColor;
     
 }
